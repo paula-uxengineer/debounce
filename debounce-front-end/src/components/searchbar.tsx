@@ -1,7 +1,7 @@
 import {useState} from "react";
 import { FaSearch } from "react-icons/fa";
 import { debounce } from "./class-debounce";
-// import jsonData from "../data-front.json"; 
+// import {datas} from "./data.json"; 
 import "./searchbar.css"
 
  export const SearchBar = () => {
@@ -31,8 +31,6 @@ import "./searchbar.css"
      const handlingDebounce =  debounce((e) => {
             setInput(e.target.value)
         }, 2000);
-
-        // es de java
 
      return (
          <> 
