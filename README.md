@@ -1,4 +1,4 @@
-# Implementing Debounce Functionality
+# Implementing Debounce Functionality with a searchbar
 
 >This README provides an overview of implementing the debounce functionality in a TypeScript project. It includes an explanation of the provided code snippet and its integration into the project structure.
 
