@@ -25,6 +25,8 @@ Utilize the debounce method: Apply the debounce method to functions that require
 
 Error handling: Ensure proper error handling for scenarios where debounce is applied to critical functions or operations.
 
+To use the searchbar introduce the same element on data.json
+
 ## :rocket: Why Debounce?
 
 Debouncing is a valuable technique in scenarios where you need to handle user input or events that may occur rapidly or frequently. Here are some reasons why debounce is beneficial:
@@ -116,7 +118,6 @@ npm run vite
 - "jest": "^29.7.0",
 - "ts-jest": "^29.1.2",
 - "typescript": "^5.3.3"
-
 
 ## :unlock: Contributing
 
