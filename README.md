@@ -1,10 +1,10 @@
 # Implementing Debounce Functionality with a searchbar
 
->This README provides an overview of implementing the debounce functionality in a TypeScript project. It includes an explanation of the provided code snippet and its integration into the project structure.
+>In this project, debounce is implemented through a searchBar to efficiently handle search queries and optimize the user experience.
 
 ## :speaker: How Debounce Works
 
-The provided code snippet demonstrates the implementation of the debounce functionality using TypeScript. Debouncing is a technique used to limit the rate at which a function is invoked. It postpones the execution of a function until after a certain delay, ensuring that it is only called once after the specified delay, even if it is triggered multiple times within that period.
+Debouncing is a technique used to limit the rate at which a function is invoked. It postpones the execution of a function until after a certain delay, ensuring that it is only called once after the specified delay, even if it is triggered multiple times within that period.
 Debounce Method
 
 Debouncing prevents excessive function calls, particularly in scenarios such as handling user input or event listeners, where rapid firing of events can lead to performance issues or undesired behavior. By delaying the execution of the function until after the user has stopped interacting or the event has settled, debounce ensures a smoother and more controlled execution flow.
